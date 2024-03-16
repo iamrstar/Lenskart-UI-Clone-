@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+/* Style for the links in the footer */
+footer a {
+    margin: 0 10px; /* Adjust spacing between links */
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+}
+
+/* Style for the version and follow us section */
+.version-follow {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+/* Style for the social media icons */
+.social-icons img {
+    width: 30px; /* Adjust icon size */
+    margin: 0 5px; /* Adjust spacing between icons */
+}
